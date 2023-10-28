@@ -1,0 +1,36 @@
+.navbar{
+    padding: 1rem;
+    background-color: #1a1924;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav_logo{
+    font-weight: bold;
+    font-size: 1.75rem;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1rem;
+    color: white;
+    transition: all 100ms ease-in;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.navbar a{
+    margin: .625rem;
+    padding: .625rem;
+    border-radius: 5%;
+    color: white;
+    transition: all 100ms ease-in;
+    text-decoration: none;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #ffffff;
+        color: #1a1924;
+    }
+}

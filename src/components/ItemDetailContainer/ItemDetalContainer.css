@@ -1,0 +1,29 @@
+.detailitemcontainer{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detailitemtxt{
+    font-size: large;
+}
+
+.detailitemprice{
+    font-size: x-large;
+    font-weight: bold;
+    color: green;
+}
+
+.detailitemimg{
+    width: 15rem;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.detailbtnbuy{
+    height: 10%;
+    font-size: larger;
+    width: 20rem;
+}
